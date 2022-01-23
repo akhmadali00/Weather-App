@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Baloo+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right,#f8f40af1, #9551c2 50%);
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+.app{
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+.date{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.today,
+.time{
+    font-family: 'Baloo 2', cursive;
+    color: #fff;
+    margin: 0 10px;
+}
+.search{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search input{
+    height: 40px;
+    width: 230px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+.search input:focus{
+    outline: 1px solid coral;
+}
+.wheather{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.place-name{
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+}
+.temperature{
+    font-family: 'Baloo 2', cursive;
+    font-size: 70px;
+    color: #fff;
+}
+.temps{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-family: 'Baloo 2', cursive;
+}
+.icon p{
+    font-size: 24px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    padding: 0 10px;
+}
